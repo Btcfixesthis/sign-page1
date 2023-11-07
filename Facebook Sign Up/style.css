@@ -1,0 +1,154 @@
+body{
+    background-color: #f0f2f5;
+    
+}
+
+.landing{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-ad{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    min-width: 400px;
+    
+}
+
+.form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+.ad-new {
+    background-color: #f0f2f5;
+}
+
+.facebook-name{
+    color: #0866ff;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+
+.flex-container{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    
+       
+}
+
+.button{
+    background-color: #0866ff;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 2em;
+}
+
+.message1{
+    font-size: 2.5rem;
+}
+
+input{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.fg-password{
+    font-weight: lighter;
+    color: #0866ff;
+}
+
+.create{
+    background-color: #42b72a;
+    font-size: xx-large;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.create-page{
+    background-color: #f0f2f5;
+}
+
+.page1 a{ 
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+
+@media (max-width: 576px){
+        .flex-container{
+            flex-direction: column;
+        }
+
+        .message1{
+            text-align: center;
+        }
+
+}
+
+@media (max-width: 768px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .message1{
+        text-align: center;
+    }
+   
+    
+}
+
+@media (max-width: 992px){
+
+    .flex-container{
+        flex-direction: column;
+    }
+    .facebook-name{
+        text-align: center;
+    }
+
+    .message1{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px){
+    
+    .flex-container{
+        flex-direction: column;
+    }
+    
+    .facebook-name{
+        text-align: center;
+    }
+
+    .message1{
+        text-align: center;
+    }
+
+}
